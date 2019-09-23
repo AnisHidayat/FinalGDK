@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catalog Film</string>
+    <string name="language">id-ID</string>
+
+    <string name="movie">Film</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="daftar_film">Daftar Film</string>
+    <string name="foto_film">Gambar Film</string>
+    <string name="foto">Foto</string>
+
+    <string name="change_language_settings">Pengaturan Bahasa</string>
+    <string name="tv">Tv</string>
+    <string name="favorite">Favorit</string>
+    <string name="add_to_favorite">Tambahkan ke Favorit</string>
+    <string name="delete_favorite">Tidak Favorit</string>
+    <string name="remove_favorite">Hapus Favorit</string>
+    <string name="toast_add">Film berhasil detambahkan ke daftar Favorit</string>
+    <string name="toast_remove">Film berhasil dihapus dari daftar Favorit</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="app_widget">Widget Film Favorit</string>
+    <string name="empty_text">Data Kosong</string>
+
+    <string name="message_daily">Ayo lihat Film bagus !</string>
+    <string name="release_today_msg">%s Rilis Hari ini, jangan lupa nonton !</string>
+    <string name="movie_name">Nama Film</string>
+    <string name="search">Cari</string>
+    <string name="notification_setting">Pengaturan Notifikasi</string>
+
+</resources>

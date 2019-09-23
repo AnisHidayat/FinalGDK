@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4961E6</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBottomNav">#034A5E</color>
+    <color name="colorCardView">#EBE7FC</color>
+    <color name="colorBlack">#0d0c0c</color>
+    <color name="colorWidget">#56ABEC</color>
+</resources>
