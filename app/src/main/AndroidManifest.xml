@@ -5,6 +5,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <permission android:name="com.dicoding.picodiploma.FinalGDK.READ_DATABASE" android:protectionLevel="normal" />
     <permission android:name="com.dicoding.picodiploma.FinalGDK.WRITE_DATABASE" android:protectionLevel="normal" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
 
     <application
@@ -34,9 +36,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailActivity" />
+        
+        <receiver
+            android:name=".MovieDailyReceiver"
+            android:enabled="true"
+            android:exported="true" />
 
         <service android:name=".widget.StackWidgetService"
-            android:permission="android.permission.BIND_REMOTEVIEWS" />
+                 android:permission="android.permission.BIND_REMOTEVIEWS" />
+        
         <provider
             android:authorities="com.dicoding.picodiploma.FinalGDK"
             android:name=".provider.MovieProvider"
