@@ -5,6 +5,9 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 
 public class DatabaseContract {
+    public static final String AUTHORITY = "com.dicoding.picodiploma.FinalGDK";
+    private static final String SCHEME = "content";
+    
     public static final String TABLE_NAME = "tb_favorite";
     static final class MovieColumns implements BaseColumns {
         //static final String TABLE_NAME = "tb_favorite";
@@ -21,7 +24,6 @@ public class DatabaseContract {
 
     }
 
-    public static final String AUTHORITY = "com.com.dicoding.picodiploma.FinalGDK";
     public static final Uri CONTENT_URI = new Uri.Builder().scheme("content")
             .authority(AUTHORITY)
             .appendPath(TABLE_NAME)
