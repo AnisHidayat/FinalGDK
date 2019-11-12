@@ -19,7 +19,7 @@ public class SearchAsyncTaskLoader extends AsyncTaskLoader<ArrayList<Movie>> {
     private ArrayList<Movie> mData;
     private boolean mHasResult = false;
     private String mKumpulanFilm;
-    public static final String API_URL = "d58453864d86d84d04f9c5974c45c4b1";
+    public static final String API_URL = "YOUR API";
 
     public SearchAsyncTaskLoader (final Context context, String kumpulanFilm){
         super(context);
